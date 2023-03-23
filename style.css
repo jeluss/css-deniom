@@ -1,0 +1,166 @@
+@import url(@'https://fonts.googleapis.com/css2?family=Urbanist:ital@1&display=swap')
+
+*{padding: 0; margin: 0; }
+.container{ 
+
+    background: url(resim1.png);
+
+    height: 100vh;
+    background-size: 100% 100%
+    ; 
+}
+
+.container .navbar {
+
+ 
+height: 110px; 
+    width: 100% ;
+
+background-color: blue;
+}
+
+.navbar ul 
+{ float: right;
+
+
+    margin-right: 20px;
+
+}
+
+
+.navbar .logo{
+
+
+    display: inline-block;
+    margin-left: 50px;
+margin-top: 30px ;
+}
+
+
+.navbar .logo a{text-decoration: none;
+font-size: 30px ;
+color: brown;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+
+    line-height: 80px
+
+}
+
+.navbar ul{
+
+    float: right;
+    margin-right: 15px;
+
+}
+
+
+.navbar ul li a{
+
+    color: aliceblue;
+    text-decoration: none;
+font-size: 20px;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+
+    background: yellow;
+
+    border-radius:2px ;
+
+
+    transition: .25s;
+
+}
+
+
+.container .center {
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    user-select: none;
+
+
+}
+
+
+.center h1{
+
+    color: black;
+    font-size: 70px;
+
+    font-weight: bold;
+
+    width: 900px;
+
+    text-align: center
+}
+
+.center h2{
+
+    color: rgb(0, 0, 0);
+
+    font-size: 50px;
+
+    font-weight: bolder;
+
+    width: 885px;
+margin-top: 15px;
+
+
+    text-align: center;
+}
+
+.center .buttons{
+
+    margin: 40px 260px;
+
+    text-align: center;
+}
+
+
+.buttons button{
+
+    height: 50px
+    ; width: 150px;
+
+    font-size: 18px;
+
+    color: darkred;
+
+    background:darkgreen;
+
+    border: solid 1px blue;
+
+    cursor: pointer ;
+
+    outline: none;
+
+    border-radius: 25px;
+
+    transition: .5s;
+
+}
+
+.buttons button:hover{
+
+    background: #fff;
+
+
+}
+
+
